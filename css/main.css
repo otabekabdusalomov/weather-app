@@ -1,0 +1,55 @@
+.section {
+  width: 1530px;
+  height: 730px;
+}
+.container-weather {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  width: 350px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(58, 242, 255, 0.646);
+}
+
+.input {
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: wheat;
+  border: none;
+}
+
+.wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wrapper-head {
+  font-size: 40px;
+}
+
+.wrapper-country {
+  font-size: 20px;
+}
+
+.wrapper-Temper {
+  font-size: 30px;
+}
+
+.wrapper-speed {
+  font-size: 20px;
+}
